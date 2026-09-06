@@ -1,0 +1,12 @@
+# Stock Portfolio Tracker - Requirements
+#
+# --- Desktop version (main.py) ---
+# Uses ONLY Python's built-in standard library:
+#   - tkinter, csv, os, datetime
+# No pip installs needed. Just Python 3.8+.
+# Linux users missing tkinter: sudo apt-get install python3-tk
+#
+# --- Web version (streamlit_app.py) ---
+# Requires the packages below (installed via `pip install -r requirements.txt`):
+streamlit>=1.32
+pandas>=2.0
